@@ -27,9 +27,9 @@ function App() {
   return (
     <Layout>
       <main className={styles.main}>
-        {/* <AnimatePresence mode="wait">
+        <AnimatePresence mode="wait">
           {isLoading && <Preloader />}
-        </AnimatePresence> */}
+        </AnimatePresence>
         <Landing />
         <Gallery />
       </main>
