@@ -28,6 +28,8 @@ const navItems = [
 export default function Nav() {
   const [selectedIndicator, setSelectedIndicator] = useState();
 
+  console.log(selectedIndicator);
+  
   return (
     <motion.div
       variants={menuSlide}
